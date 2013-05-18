@@ -5,11 +5,10 @@
 
 .banner {
     margin-top: 30px;
-    margin-bottom: 60px;
 }
 
 .banner > #logo {
-    font-size: 72px;
+    font-size: 92px;
     line-height: 1;
 }
 
@@ -18,13 +17,28 @@
     float: right;
 }
 
+.banner > ol {
+    margin-top: -5px;
+}
+
+
 #tagline {
     text-align: center;
 }
 
 hr {
-  border-top: 10px solid #555;
-  width: 70%;
+  border-top: 2px solid rgb(51, 51, 51);
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+#comic-box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#footer {
+    margin-top: 50px;
 }
