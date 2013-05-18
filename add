@@ -1,0 +1,24 @@
+#!/bin/sh
+
+#
+# Add new comic to founder.fr site
+#
+
+if [ ! -f "$1" ];
+then
+    echo "Image does not exist: $1"
+    exit 1
+fi
+
+read -p "Title of comic?" title
+read -p "Permalink title (hypen-separated)?" permalink
+
+date=`date +%F`
+
+filename="$date"-"$permalink".md
+
+
+echo "Filename => " $filename
+
+sed -e "s/TITLE/mytitle/" -e "s/FILENAME/myimage\.png/" post_template > /tmp/"$filename"
+
