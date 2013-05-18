@@ -1,0 +1,24 @@
+---
+layout: default
+title: founder.fr
+---
+
+
+
+
+<div id="nav" style="width: 100%">
+  <div style="float: left">
+    {% if site.posts[1].url %} 
+    <a href="{{site.posts[1].url}}" title="Previous Post: {{site.posts[1].title}}">&laquo; {{site.posts[1].title}}</a> 
+    {% endif %} 
+  </div>
+</div>
+
+<br />
+<br />
+<br />
+
+<div id="comic-box">
+  {{ content }}
+</div>
+
