@@ -3,6 +3,8 @@ title: Launching
 layout: comic
 ---
 
+\[a webcomic chronicling a fictional University graduate trying to make it as an entrepreneur, based partially on the site author\]
+------------------------------
 \[launching soon\]
 ------------------
 
