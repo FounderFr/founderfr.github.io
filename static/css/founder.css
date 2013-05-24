@@ -12,18 +12,8 @@
     line-height: 1;
 }
 
-.banner > p {
-    display: block;
-    float: right;
-}
-
 .banner > ol {
     margin-top: -5px;
-}
-
-
-#tagline {
-    text-align: center;
 }
 
 hr {
